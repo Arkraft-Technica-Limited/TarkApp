@@ -52,7 +52,7 @@
   <string name="screen_room_details_error_unmuting">"Failed unmuting this channel, please try again."</string>
   <string name="screen_room_details_invite_people_dont_close">"Don\'t close the app until finished."</string>
   <string name="screen_room_details_invite_people_preparing">"Preparing invitations…"</string>
-  <string name="screen_room_details_invite_people_title">"Invite people"</string>
+  <string name="screen_room_details_invite_people_title">"Invite colleagues"</string>
   <string name="screen_room_details_leave_conversation_title">"Leave conversation"</string>
   <string name="screen_room_details_leave_room_title">"Leave channel"</string>
   <string name="screen_room_details_media_gallery_title">"Media and files"</string>

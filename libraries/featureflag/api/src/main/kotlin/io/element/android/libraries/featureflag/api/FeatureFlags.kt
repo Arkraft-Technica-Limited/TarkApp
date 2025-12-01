@@ -24,8 +24,8 @@ enum class FeatureFlags(
 ) : Feature {
     RoomDirectorySearch(
         key = "feature.roomdirectorysearch",
-        title = "Room directory search",
-        description = "Allow user to search for public rooms in their homeserver",
+        title = "Channel directory search",
+        description = "Allow user to search for public channels in their homeserver",
         defaultValue = { false },
         isFinished = false,
     ),
@@ -39,7 +39,7 @@ enum class FeatureFlags(
     SyncOnPush(
         key = "feature.syncOnPush",
         title = "Sync on push",
-        description = "Subscribe to room sync when a push is received",
+        description = "Subscribe to channel sync when a push is received",
         defaultValue = { true },
         isFinished = false,
     ),
@@ -55,8 +55,8 @@ enum class FeatureFlags(
     EnableKeyShareOnInvite(
         key = "feature.enableKeyShareOnInvite",
         title = "Share encrypted history with new members",
-        description = "When inviting a user to an encrypted room that has history visibility set to \"shared\"," +
-            " share encrypted history with that user, and accept encrypted history when you are invited to such a room." +
+        description = "When inviting a user to an encrypted channel that has history visibility set to \"shared\"," +
+            " share encrypted history with that user, and accept encrypted history when you are invited to such a channel." +
             "\nRequires an app restart to take effect." +
             "\n\nWARNING: this feature is EXPERIMENTAL and not all security precautions are implemented." +
             " Do not enable on production accounts.",
@@ -66,7 +66,7 @@ enum class FeatureFlags(
     Knock(
         key = "feature.knock",
         title = "Ask to join",
-        description = "Allow creating rooms which users can request access to.",
+        description = "Allow creating channels which users can request access to.",
         defaultValue = { false },
         isFinished = false,
     ),

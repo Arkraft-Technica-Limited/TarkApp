@@ -1,2 +1,2 @@
-Main changes in this version: Event cache / Join channel by address.
+Main changes in this version: Event cache / Join channel.
 Full changelog: https://github.com/element-hq/element-x-android/releases

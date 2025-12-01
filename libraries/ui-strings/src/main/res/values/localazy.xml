@@ -99,9 +99,9 @@
   <string name="action_go_to_settings">"Go to settings"</string>
   <string name="action_ignore">"Ignore"</string>
   <string name="action_invite">"Invite"</string>
-  <string name="action_invite_friends">"Invite people"</string>
-  <string name="action_invite_friends_to_app">"Invite people to %1$s"</string>
-  <string name="action_invite_people_to_app">"Invite people to %1$s"</string>
+  <string name="action_invite_friends">"Invite Others"</string>
+  <string name="action_invite_friends_to_app">"Invite colleagues to %1$s"</string>
+  <string name="action_invite_people_to_app">"Invite colleagues to %1$s"</string>
   <string name="action_invites_list">"Invites"</string>
   <string name="action_join">"Join"</string>
   <string name="action_learn_more">"Learn more"</string>
@@ -295,7 +295,7 @@ Reason: %1$s."</string>
   <string name="common_rich_text_editor">"Rich text editor"</string>
   <string name="common_room">"Channel"</string>
   <string name="common_room_name">"Channel name"</string>
-  <string name="common_room_name_placeholder">"e.g. your project name"</string>
+  <string name="common_room_name_placeholder">"e.g. sales team"</string>
   <plurals name="common_rooms">
     <item quantity="one">"%1$d Channel"</item>
     <item quantity="other">"%1$d Channels"</item>
@@ -418,8 +418,8 @@ Are you sure you want to continue?"</string>
   <string name="event_shield_reason_unknown_device">"Encrypted by an unknown or deleted device."</string>
   <string name="event_shield_reason_unsigned_device">"Encrypted by a device not verified by its owner."</string>
   <string name="event_shield_reason_unverified_identity">"Encrypted by an unverified user."</string>
-  <string name="invite_friends_rich_title">"Hello, Communicate with me on %1$s"</string>
-  <string name="invite_friends_text">"Lets, talk to me on a 🔐️secure system %1$s: %2$s"</string>
+  <string name="invite_friends_rich_title">"Hello, let’s connect on %1$s"</string>
+  <string name="invite_friends_text">"Connect with me on our secure platform %1$s: %2$s"</string>
   <string name="login_initial_device_name_android">"%1$s Android"</string>
   <string name="preference_rageshake">"Rageshake to report bug"</string>
   <string name="screen_bug_report_a11y_screenshot">"Screenshot"</string>

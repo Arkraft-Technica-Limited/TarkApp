@@ -4,6 +4,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial.
 # Please see LICENSE files in the repository root for full details.
+#https://github.com/Arkraft-Technica-Limited/compound-design-tokens
+#https://github.com/element-hq/compound-design-tokens
 
 set -e
 
@@ -27,7 +29,7 @@ if [ -d tmpCompound ]; then
 fi
 mkdir tmpCompound
 pushd tmpCompound
-git clone --branch "${BRANCH}" https://github.com/element-hq/compound-design-tokens
+git clone --branch "${BRANCH}" https://github.com/Arkraft-Technica-Limited/compound-design-tokens
 
 echo "Copying files from tokens repository..."
 rm -R ../libraries/compound/src/main/res/drawable
