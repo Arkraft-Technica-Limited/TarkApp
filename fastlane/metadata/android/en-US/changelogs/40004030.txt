@@ -2,7 +2,7 @@ Main changes in this version:
 - Added share presence toggle.
 - Render typing notifications.
 - Manually mark a room as unread.
-- Add an empty state to the room list.
+- Add an empty state to the channel list.
 - Allow joining unencrypted video calls in non encrypted rooms.
 
 And several other bugfixes.
