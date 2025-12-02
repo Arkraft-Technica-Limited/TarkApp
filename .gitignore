@@ -115,3 +115,5 @@ lint/tmp/
 .DS_Store
 
 checkouts/**
+
+/app/gplay/
