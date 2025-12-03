@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="arkraft.tark.android.debug" />
+                  <option name="mobileSdkAppId" value="1:789168721584:android:6e6f2cf3e2146922beb575" />
+                  <option name="projectId" value="tark-coms-android" />
+                  <option name="projectNumber" value="789168721584" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
