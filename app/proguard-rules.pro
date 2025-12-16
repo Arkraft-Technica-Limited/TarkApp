@@ -66,7 +66,13 @@
 -dontwarn androidx.window.sidecar.SidecarWindowLayoutInfo
 
 # Also needed after AGP 8.13.1 upgrade, it seems like proguard is now more aggressive on removing unused code
--keep class org.matrix.rustcomponents.sdk.** { *;}
--keep class uniffi.** { *;}
--keep class io.element.android.x.di.** { *; }
+-keep,includedescriptorclasses class org.matrix.rustcomponents.sdk.** {
+    public protected *;
+}
+-keep,includedescriptorclasses class uniffi.** {
+    public protected *;
+}
+-keep,includedescriptorclasses class io.element.android.x.di.** {
+    public protected *;
+}
 -keepnames class io.element.android.x.**

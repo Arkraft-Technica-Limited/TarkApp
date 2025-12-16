@@ -92,6 +92,14 @@ android {
             storeFile = file("./signature/debug.keystore")
             storePassword = "android"
         }
+        register("release") {
+            if (project.hasProperty("TARK_RELEASE_STORE_FILE")) {
+                storeFile = file(project.property("TARK_RELEASE_STORE_FILE") as String)
+                storePassword = project.property("TARK_RELEASE_STORE_PASSWORD") as String
+                keyAlias = project.property("TARK_RELEASE_KEY_ALIAS") as String
+                keyPassword = project.property("TARK_RELEASE_KEY_PASSWORD") as String
+            }
+        }
         register("nightly") {
             keyAlias = System.getenv("ELEMENT_ANDROID_NIGHTLY_KEYID")
                 ?: project.property("signing.element.nightly.keyId") as? String?
@@ -127,14 +135,13 @@ android {
                 "login_redirect_scheme",
                 oidcRedirectSchemeBase,
             )
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("release")
 
-            optimization {
-                enable = true
-                keepRules {
-                    files.add(File(projectDir, "proguard-rules.pro"))
-                    files.add(getDefaultProguardFile("proguard-android-optimize.txt"))
-                }
+            postprocessing {
+                isMinifyEnabled = true
+                isObfuscate = true
+                isShrinkResources = true
+                proguardFiles("proguard-rules.pro")
             }
         }
 
